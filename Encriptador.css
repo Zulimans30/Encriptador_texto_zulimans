@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
+
+
+:root{
+    --color-secundario: rgba(8, 8, 83, 0.5);
+    --color-terceiario: rgba(0, 0, 29, 0.5);
+    --fuente-Roboto: "Roboto mono";
+    --fuente-inter: "Inter";
+}
+
+
+body{
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(/iot_smart_city_01-1.png)no-repeat center center fixed;
+    min-height: 100vh;
+    background-size: cover;
+    color: #f6f6f6;
+
+}
+
+.header-menu{
+    padding: 1% 0% 0% 15%;
+    
+}
+.menu{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+}
+
+.Titulo{
+    font-family: var(--fuente-Roboto);
+    font-size: 2rem;
+    font-weight: 720%;
+    color: #f6f6f6;
+    text-decoration: none;
+    margin-top: -108px;
+    margin-left: 180px;
+}
+
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 10%;
+    gap: 15px;
+}
+
+.portada-input{
+    width: 500px;
+    padding-top: -200%;
+    border-radius: 5%;
+    height: 67px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: var(--fuente-inter);
+}
+    
+
+.texto-normal{
+    display: flex;
+    justify-content: center;
+    resize: none;
+    margin-right: 30%;
+    width: 500px;
+    height: 400px;
+    margin-top: -220px;
+    margin-left: 180px;
+    gap: 20px;
+    outline: none;
+    background-color: transparent;
+    font-family: var(--fuente-inter);
+    font-size: 25px;
+    border: transparent;
+    color: #f6f6f6;
+    
+}
+
+.segunda-seccion-h2-palabras{
+    font-family: var(--fuente-inter);
+    font-size: 18px;
+    margin-top: 370px;
+    margin-left: -540px;
+    text-align: center;
+}
+
+.img-encriptar{
+    width: 250px;
+    height: 220px;
+    margin-top: -1px;
+    margin-left: 45px;
+    top: 283px;
+    left:10px;
+    padding: 15% 7%;
+    border-radius: 20%
+    ;
+}
+
+.segunda-seccion{
+    width: 400px;
+    height: 600px;
+    margin-top: -70px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 32px;
+    background-color: var(--color-terceiario);
+}
+
+.segunda-seccion-h2{
+    font-family: var(--fuente-inter);
+    margin-top: -25px;
+    text-align: center;
+}
+
+.segunda-seccion-parrafo{
+    font-family: var(--fuente-inter);
+    margin-top: 25px;
+    text-align: center;
+}
+
+.texto-encriptado{
+    justify-content: center;
+    resize: none;
+    margin-right: 10%;
+    width: 350px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 25px;
+    gap: 20px;
+    outline: none;
+    background-color: transparent;
+    font-family: var(--fuente-inter);
+    font-size: 18px;
+    border: transparent;
+    color: #f6f6f6;
+    
+}
+
+.boton-encriptar{
+    position: relative;
+    border-radius: 20px;
+    margin-top: 460px;
+    margin-left: -560px;
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: var(--fuente-Roboto);
+    background-color: #0A3B71;
+    color: white;
+}
+
+.boton-desencriptar{
+    position: relative;
+    border-radius: 20px;
+    margin-top: 460px;
+    margin-left: -155px;
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: var(--fuente-Roboto);
+    background-color: #D8DFE8;
+
+}
+
+.boton-copiar-texto{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    height: 60px;
+    width: 350px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: var(--fuente-Roboto);
+    background-color: #D8DFE8;
+}
+.logo{
+    width: 135px;
+    border-radius: 100%;
+    margin-top: -30px;
+    padding: 20px 20px;
+}
+
+.footer{
+    font-family: var(--fuente-Roboto);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200px;
+    background-color:rgba(7, 16, 138, 0.678);
+    width: 1668px;
+    height: 32px;
+    border-radius:20px;
+}
+
+@media (max-width: 1280px){
+    body{
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+        url(/iot_smart_city_01-1.png)no-repeat center center fixed;
+        min-height: 100vh;
+        background-size: cover;
+        color: #f6f6f6;
+    
+    }
+    
+    .header-menu{
+        padding: 6% 15% 15% 15%;
+        
+    }
+    .menu{
+        display: flex;
+        gap: 100px;
+        text-align: center;
+    }
+    .logo{
+        width: 150px;
+        border-radius: 30000%;
+        margin-left: -70px;
+        margin-top: -20px;
+    }
+
+    .Titulo{
+        font-family: var(--fuente-Roboto);
+        font-size: 36px;
+        color: #f6f6f6;
+        text-decoration: none;
+        margin-top: -145px;
+        margin-left: 180px;
+        width: 1000px;
+    }
+    
+    .portada{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5% 10%;
+        gap: 15px;
+    }
+
+    .portada-input{
+        width: 350px;
+        height: 67px;
+    }
+
+    .texto-normal{
+        display: flex;
+        justify-content: center;
+        resize: none;
+        margin-right: 30%;
+        width: 618px;
+        height: 250px;
+        margin-top: -700px;
+        margin-left: 25px;
+        gap: 20px;
+        outline: none;
+        background-color: transparent;
+        font-family: var(--fuente-inter);
+        font-size: 22px;
+        border: transparent;
+        color: #f6f6f6;
+        
+    }
+
+    .segunda-seccion-h2-palabras{
+        width: 530px;
+        height: 18px;
+        font-family: var(--fuente-inter);
+        font-size: 16px;
+        top: 840px;
+        gap: 8px;
+        margin-top: -750px;
+        margin-left: -395px;
+        white-space: nowrap;
+    
+    }
+    
+    .img-encriptar{
+        width: 450px;
+        height: 250px;
+        margin-top: -100px;
+        margin-left: 90px;
+        top: 283px;
+        left:10px;
+        padding: 15% 7%;
+        border-radius: 30%
+        ;
+    }
+    
+    .segunda-seccion{
+        width: 2000px;
+        height: 900px;
+        margin-top: 500px;
+        margin-left: -800px;
+        border-radius: 32px;
+        background-color: var(--color-terceiario);
+    }
+    
+    .segunda-seccion-h2{
+        font-family: var(--fuente-inter);
+        margin-top: -80px;
+        text-align: center;
+        font-size: 25px;
+    
+    }
+    
+    .segunda-seccion-parrafo{
+        font-family: var(--fuente-inter);
+        margin-top: 65px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .texto-encriptado{
+        justify-content: center;
+        resize: none;
+        margin-right: 10%;
+        width: 690px;
+        height: 300px;
+        margin-left: 12px;
+        margin-top: 25px;
+        gap: 20px;
+        outline: none;
+        background-color: transparent;
+        font-family: var(--fuente-inter);
+        font-size: 22px ;
+        border: transparent;
+        color: #f6f6f6;
+        
+    }
+    
+    .boton-encriptar{
+        position: relative;
+        padding: 15px 120px;
+        border-radius: 20px;
+        margin-top: -650px;
+        margin-left: -360px;
+        height: 60px;
+        width: 600px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #0A3B71;
+        color: white;
+    }
+    
+    .boton-desencriptar{
+        position: relative;
+        padding: 15px 70px;
+        border-radius: 20px;
+        margin-top: -650px;
+        margin-left: 30px;
+        height: 60px;
+        width: 750px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #D8DFE8;
+
+    
+    }
+    
+    .boton-copiar-texto{
+        width: 650px;
+        margin-left: 28px;
+        margin-top: 60px;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #D8DFE8;
+    }
+    
+    .footer{
+        font-family: var(--fuente-Roboto);
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 200px;
+        background-color:rgba(7, 16, 138, 0.678);
+        width: 880px;
+        height: 35px;
+        border-radius:20px;
+    }
+}
+
+@media (max-width: 640px){
+    body{
+        background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+        url(/iot_smart_city_01-1.png)no-repeat center center fixed;
+        min-height: 100vh;
+        background-size: cover;
+        color: #f6f6f6;
+    
+    }
+    
+    .header-menu{
+        padding: 6% 15% 15% 15%;
+        
+    }
+    .menu{
+        display: flex;
+        gap: 100px;
+        text-align: center;
+    }
+    .logo{
+        width: 150px;
+        border-radius: 30000%;
+        margin-left: 240px;
+        margin-top: 2px;
+    }
+
+    .Titulo{
+        font-family: var(--fuente-Roboto);
+        font-size: 30px;
+        color: #f6f6f6;
+        text-decoration: none;
+        margin-top: -170px;
+        margin-left: 1px;
+    }
+    
+    .portada{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5% 10%;
+        gap: 15px;
+    }
+
+    .portada-input{
+        width: 350px;
+        height: 67px;
+    }
+
+    .texto-normal{
+        display: flex;
+        justify-content: center;
+        resize: none;
+        margin-right: 30%;
+        width: 350px;
+        height: 250px;
+        margin-top: -650px;
+        margin-left: 25px;
+        gap: 20px;
+        outline: none;
+        background-color: transparent;
+        font-family: var(--fuente-inter);
+        font-size: 22px;
+        border: transparent;
+        color: #f6f6f6;
+        
+    }
+
+    .segunda-seccion-h2-palabras{
+        width: 229px;
+        height: 18px;
+        font-family: var(--fuente-inter);
+        font-size: 15px;
+        top: 840px;
+        left: 18px;
+        gap: 8px;
+        margin-top: -780px;
+        margin-left: -340px;
+        white-space: nowrap;
+    
+    }
+    
+    .img-encriptar{
+        width: 250px;
+        height: 220px;
+        margin-top: -40px;
+        margin-left: 60px;
+        top: 283px;
+        left:10px;
+        padding: 15% 7%;
+        border-radius: 30%
+        ;
+    }
+    
+    .segunda-seccion{
+        width: 1000px;
+        height: 900px;
+        margin-top: 500px;
+        margin-left: -430px;
+        border-radius: 32px;
+        background-color: var(--color-terceiario);
+    }
+    
+    .segunda-seccion-h2{
+        font-family: var(--fuente-inter);
+        margin-top: -25px;
+        text-align: center;
+        font-size: 30px;
+    
+    }
+    
+    .segunda-seccion-parrafo{
+        font-family: var(--fuente-inter);
+        margin-top: 25px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .texto-encriptado{
+        justify-content: center;
+        resize: none;
+        margin-right: 10%;
+        width: 420px;
+        height: 300px;
+        margin-left: 12px;
+        margin-top: 25px;
+        gap: 20px;
+        outline: none;
+        background-color: transparent;
+        font-family: var(--fuente-inter);
+        font-size: 22px ;
+        border: transparent;
+        color: #f6f6f6;
+        
+    }
+    
+    .boton-encriptar{
+        padding: 14px 150px;
+        justify-content: center;
+        position: relative;
+        border-radius: 20px;
+        margin-top: -650px;
+        margin-left: -260px;
+        height: 60px;
+        width: 500px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #0A3B71;
+        color: white;
+        gap: 10px;
+    }
+    
+    .boton-desencriptar{
+        padding: 14px 150px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border-radius: 20px;
+        margin-top: -500px;
+        margin-left: -419px;
+        height: 60px;
+        width: 405px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #D8DFE8;
+        gap: 10px;
+    
+    }
+    
+    .boton-copiar-texto{
+        width: 350px;
+        margin-left: 46px;
+        margin-top: 10px;
+        border-radius: 20px;
+        font-size: 18px;
+        cursor: pointer;
+        font-family: var(--fuente-Roboto);
+        background-color: #D8DFE8;
+    }
+    
+    .footer{
+        font-family: var(--fuente-Roboto);
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 200px;
+        background-color:rgba(7, 16, 138, 0.678);
+        width: 490px;
+        height: 58px;
+        border-radius:20px;
+    }
+}

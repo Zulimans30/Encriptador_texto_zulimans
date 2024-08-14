@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Zulimans</title>
+    <link rel="stylesheet" href="Encriptador.css">
+    <link rel="icon" href="Logo_Zulimans.png">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-menu">
+        <img class="logo" src="Logo_Zulimans.png" alt="Logo de Zulimans Encriptador">
+        <nav class="menu">
+
+            <h1 class="Titulo">Encriptador de Texto Zulimans Escalante</h1>
+
+        </nav>
+    </header>
+    <main class="portada">
+        <section class="portada-input">
+            <textarea class="texto-normal" name="Ingrese-texto" id="input" placeholder="Ingrese su texto aquí"></textarea>
+        </section>
+            <h2 class="segunda-seccion-h2-palabras">Solo palabras en minusculas y sin acentos</h2>
+            <button id="encriptar" class="boton-encriptar">Encriptar</button>
+            <button id="desencriptar" class="boton-desencriptar">Desencriptar</button>
+        <section class="segunda-seccion">
+            <div class="texto-encriptado" name="texto-encriptado" id="output"></div>
+            <img class="img-encriptar" src="encriptar_1.png"alt="Encriptador">
+            <h2 class="segunda-seccion-h2">Ningun mensaje fue encontrado</h2>
+            <p class="segunda-seccion-parrafo">Ingrese el texto que desea encriptar o desencriptar</p>
+            <button class="boton-copiar-texto" id="textCopy">Copiar Texto</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desarrollado por Zulimans Escalante 07/2024</p>  
+    </footer>
+<script src="Encriptador.js"></script>
+</body>
+</html>
